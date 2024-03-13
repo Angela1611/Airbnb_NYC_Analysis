@@ -9,6 +9,11 @@ UPDATE airbnb_nyc
 SET Occupied_days = 365 - Days_available;
 SELECT DISTINCT District
 FROM airbnb_nyc;
+#Number of rentals per district
+SELECT District, COUNT(*) AS Count
+FROM airbnb_nyc
+GROUP BY District
+ORDER BY District;
 #Average price per district
 SELECT District, AVG(Price) AS Average_Price
 FROM airbnb_nyc
@@ -33,6 +38,11 @@ GROUP BY
 #Check types of property
 SELECT DISTINCT Prop_Type
 FROM airbnb_nyc;
+#Number of rentals by property type and district
+SELECT District, Prop_Type, COUNT(*) AS Count
+FROM airbnb_nyc
+GROUP BY District, Prop_Type
+ORDER BY District, Prop_Type;
 #Popularity of property types
 SELECT Prop_Type, AVG(Occupied_days) AS Avg_Occupied_Days
 FROM airbnb_nyc
