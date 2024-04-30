@@ -51,6 +51,7 @@ The following conclusions were reached through information extraction via SQL:
 
 The conclusions were gathered and represented in an interactive dashboard in Tableau, which can be accessed at the following [link](https://public.tableau.com/app/profile/angela161/viz/AirbnbNYCAnalysis_17093234133180/Dashboard3)
 
+![08](https://github.com/Angela1611/Airbnb_NYC_Analysis/assets/158333155/9b450f54-8913-4811-bc81-697d0db0d3d9)
 
 ## Tech Stack
 
