@@ -13,7 +13,7 @@
 ## Project description and objective
 
 
-This analysis was based on a dataset containing information about property rentals in New York City through Airbnb. The purpose was to obtain general information about the behavior of these rentals and to identify patterns in this behavior.
+This analysis was based on a dataset containing information about property rentals in New York City through Airbnb. The purpose was to obtain general information about the behavior of these rentals and to identify patterns in this behavior
 
 ## Data preparation and processing
 
