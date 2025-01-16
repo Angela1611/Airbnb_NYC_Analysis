@@ -1,5 +1,5 @@
 use airbnbny;
-#Change Column name
+#Change Column name..
 ALTER TABLE airbnb_nyc
 CHANGE COLUMN Boroughs District TEXT;
 #Create Column Occupied_Days
